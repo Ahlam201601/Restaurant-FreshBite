@@ -10,18 +10,35 @@
 <body>
     <nav class="navbar">
       <div class="navbarLogo">
-        <img src="logo1.png" alt="FreshBite Logo" >
+        <img src="/images/logo.png" alt="FreshBite Logo" >
         <h1>FreshBite</h1>
       </div>
       <div>
-         <ul class="menu-items">
+          <ul class="sidebar">
+            <li><a href="#"><img src="/images/close.png" alt="close icon" class="close" onclick="HideSidebar()"/></a></li>
             <li><a href="Home.html">Home</a></li>
             <li><a href="Menu.html">Menu</a></li>
             <li><a href="Galerie.html">Gallery</a></li>
             <li><a href="Contact.html">Contact</a></li>
           </ul>
+         <ul class="menu-items">
+            <li class="hideOnMobile"><a href="Home.html">Home</a></li>
+            <li class="hideOnMobile"><a href="Menu.html">Menu</a></li>
+            <li class="hideOnMobile"><a href="Galerie.html">Gallery</a></li>
+            <li class="hideOnMobile"><a href="Contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <div class="menu">
+        <img src="/images/menu.png" alt="menu icon" onclick="ShowSidebar()" class="menu-button"/>
       </div>
     </nav>
+    <section class="hero-section">
+      <div>
+        <h2></h2>
+        <p></p>
+      </div>
+    </section>
   
 </body>
+<script src="script.js"></script>
 </html>
