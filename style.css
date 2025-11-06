@@ -1,11 +1,9 @@
-
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
-
 /*Navbar*/
 .navbar {
   box-shadow: 0px 5px 10px 0px #aaa;
@@ -47,8 +45,8 @@ padding-top: 10px;
 }
 .menu-items li {
   list-style: none;
-  margin:  0 1.5rem 1.5rem 0 ;
-  font-size: 1.2rem;
+  margin:  0 24px 24px 0 ;
+  font-size: 19.2px;
 }
 .menu-items a {
   text-decoration: none;
@@ -141,7 +139,6 @@ padding-top: 10px;
 
 
 /*Home*/
-
 .hero-section {
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -167,7 +164,6 @@ padding-top: 10px;
   transition: 0.5s;
 }
 
-
 .hero-section a:hover {
   background-color: #4CAF50;
   color: white;
@@ -181,9 +177,7 @@ padding-top: 10px;
   color: #fff;
   font-size: 20px;
 }
-
 /*footer*/
-
 .footer {
   background-color: #fff;
   color: #0e594a;
@@ -197,7 +191,6 @@ padding-top: 10px;
   gap: 40px;
 }
 
-
 .footerH {
   color: #0e594a;
   font-size: 18px;
@@ -206,8 +199,6 @@ padding-top: 10px;
 }
 
 .footerH::after {
-  content: "";
-  display: block;
   background-color: #0e594a; 
 }
 
@@ -250,7 +241,6 @@ padding-top: 10px;
   bottom: 0;
   padding-bottom:1px ;
 }
-
 .footer-bottom p {
   color: #fff;
   font-size: 17px;
