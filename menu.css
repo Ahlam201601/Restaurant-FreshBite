@@ -9,15 +9,17 @@
     justify-content: center;
     margin: 30px 0 30px 0;
 }
-
-
+.menu-categories h1{
+  margin:15px 0 20px 0;
+  text-align: left;
+  cursor: pointer;
+}
 .menu-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px; 
+  gap: 20px; 
 }
-
 
 .section h1 span{
     color: #0e594a;
@@ -25,10 +27,8 @@
     font-family:'Lucida Sans', sans-serif;
 }
 .menu-card{
-    
-    
     padding: 10px 0 0 0;
-    margin: 0 0 20px 80px;
+    margin: 0 40px 20px 40px;
     box-shadow: 0 0 10px rgb(0, 0, 0,0.2);
     border-radius: 10px;
     background-color: #fff;
@@ -46,4 +46,29 @@
 .menu-image:hover img{
     transform: scale(1.1);
 
+}
+.card{
+    
+    height: 45px;
+    position: relative;
+    top: -345px;
+    left: 325px;
+}
+.card i:hover{
+    color: rgb(209, 64, 64);
+}
+.menuName h2{
+    text-align: center;
+    margin: -35px 0 0 0;
+    font-size: 25px;
+    color: #0e594a;
+}
+.menuName h3{
+    text-align: center;
+    margin: 15px;
+}
+.menu-icon{
+    text-align: center;
+    margin: 10px 0 20px 0;
+    color: #0e594a;
 }
