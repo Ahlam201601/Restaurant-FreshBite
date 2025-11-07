@@ -3,6 +3,7 @@
   padding-left: 100px;
   padding-right: 100px;
   justify-content: space-between;
+  position: relative;
 }
 .contact-container{
   display: flex;
@@ -15,9 +16,12 @@
 .contact-form{
   display: flex;
   flex-direction: column;
-  width: 435%;
+  width: 440%;
   margin: 30px 0 0 0;
 } 
+.champ{
+  position: absolute;
+}
   
 .contact-form label,
 .contact-form input,
