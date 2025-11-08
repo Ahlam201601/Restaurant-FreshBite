@@ -31,6 +31,7 @@ Send.addEventListener("click", function SendMessage(e){
     success.textContent = "successfully";
     success.style.color = "green";
     champ.textContent = ""
+    emailregex.textContent = ""
   }
 
 })
