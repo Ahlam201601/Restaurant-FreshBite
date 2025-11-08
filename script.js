@@ -17,24 +17,6 @@ Send.addEventListener("click", function SendMessage(e){
   const success = document.getElementById("success")
   const emailregex = document.getElementById("emailregex")
 
-  // if (name === "" || email === "" || message === "") {
-  //   champ.textContent = " All fields are required !";
-  //   champ.style.color = "red";
-  //   success.textContent = ""
-  // }else if(email.match(/^[a-zA-Z0-9._%+-]+@gmail.com$/)){
-  //   emailregex.textContent = ""
-  // }else{
-  //   emailregex.textContent = "Invalid email address.";
-  //   emailregex.style.color = "red";
-  //   champ.textContent = "";
-  //   success.textContent = ""
-  // }
-
-  // if( name !== "" && email !== "" && message !==""){
-  //   success.textContent = "successfully";
-  //   success.style.color = "green";
-  //   champ.textContent = ""
-  // }
 
   if (name === "" || email === "" || message === "") {
     champ.textContent = "All fields are required !";

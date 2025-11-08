@@ -1,7 +1,6 @@
 .section{
     padding: 70px 0;
 }
-
 .section h1{
     font-size: 50px;
     display: flex;
@@ -10,9 +9,14 @@
     margin: 30px 0 30px 0;
 }
 .menu-categories h1{
-  margin:15px 0 20px 0;
-  text-align: left;
+  margin:15px 0 20px 40px;
   cursor: pointer;
+  justify-content: start;
+  font-size: 35px;
+  color: #0e594a;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0e594a;
+  display: inline-block;
 }
 .menu-container {
   display: flex;
